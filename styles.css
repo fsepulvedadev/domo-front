@@ -1,0 +1,99 @@
+body {
+    background-color: #283345;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    scroll-behavior: smooth;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.hero-text {
+    margin-top: 12rem;
+}
+#btn-scroll-up {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    padding: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#navbar-links > ul {
+    background-color: #283345 !important;
+    top: 3rem;
+}
+
+#navbar-links > ul li a {
+    padding: 0.5rem 1rem;
+}
+
+.hero-img {
+    width: 40%;
+}
+
+.card {
+    border-radius: 2px !important;
+}
+.btn {
+    border-radius: 2px !important;
+}
+
+.services {
+    margin-top: 12rem;
+    margin-bottom: -3rem;
+}
+
+.container-fluid.technology {
+    background-color: #3b73fb;
+}
+
+.technology.row {
+    padding-top: 10rem;
+    padding-bottom: 6rem;
+}
+
+.technology i {
+    font-size: 3rem;
+}
+
+.container-fluid.partners {
+    background-color: #ffffff;
+}
+.partners {
+    margin-bottom: -3rem;
+}
+.partners .btn {
+    padding: 0.5rem 1.8rem;
+}
+
+.partners img {
+    width: 8rem;
+    filter: grayscale(100%);
+    opacity: 0.5;
+}
+
+.partners h6 {
+    font-size: 0.6rem;
+    font-weight: 500;
+}
+
+.partners .card {
+    border: 0 !important;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.tnw {
+    opacity: 0.25 !important;
+}
+
+.footer {
+    background-color: #283345 !important;
+    padding-top: 5rem;
+}

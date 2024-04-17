@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Domo Challenge</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Navbar -->
+
+      <nav class="navbar navbar-expand-lg mt-4">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold text-white" href="#">compleet labs</a>
+          <button
+            id="navbar-btn"
+            class="navbar-toggler border-white text-white"
+            type="button"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div
+            class="d-none d-lg-flex collapse navbar-collapse w-100 d-flex justify-content-end"
+            id="navbar-links"
+          >
+            <ul class="navbar-nav gap-3 p-4 p-md-0">
+              <li class="nav-item">
+                <a class="nav-link fw-bold active" aria-current="page" href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item fw-lighter">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item fw-lighter">
+                <a class="nav-link" href="#">Technology</a>
+              </li>
+              <li role="button" class="nav-item fw-lighter">
+                <a class="nav-link">Case studies</a>
+              </li>
+              <li role="button" class="nav-item fw-lighter">
+                <a class="nav-link">About</a>
+              </li>
+              <li role="button" class="nav-item">
+                <a
+                  class="nav-link fw-bold d-flex justify-content-center align-items-center gap-2"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="18"
+                    height="18"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M0 4.75C0 3.784.784 3 1.75 3h20.5c.966 0 1.75.784 1.75 1.75v14.5A1.75 1.75 0 0 1 22.25 21H1.75A1.75 1.75 0 0 1 0 19.25Zm1.75-.25a.25.25 0 0 0-.25.25v14.5c0 .138.112.25.25.25h20.5a.25.25 0 0 0 .25-.25V4.75a.25.25 0 0 0-.25-.25Z"
+                    ></path>
+                    <path
+                      d="M5 8.75A.75.75 0 0 1 5.75 8h11.5a.75.75 0 0 1 0 1.5H5.75A.75.75 0 0 1 5 8.75Zm0 4a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 0 1.5h-5.5a.75.75 0 0 1-.75-.75Z"
+                    ></path>
+                  </svg>
+                  Hire us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar -->
+      <div class="row hero-text">
+        <div class="col-12 col-md-6 mx-auto m-md-0">
+          <h1
+            class="fw-bold text-white mb-4 mb-md-0 mt-md-5 text-center text-md-start"
+          >
+            We build beautiful and reliable web solutions
+          </h1>
+          <p
+            class="text-tertiary fw-normal text-center text-md-start mb-4 mb-md-0"
+          >
+            We strongly belive that communication, trust and transparency <br />
+            are the essential elements of a successful business relationship.
+            <br />
+            Ready for the journey?
+          </p>
+
+          <div class="row mx-auto mt-3">
+            <div class="col col-md-4 px-0">
+              <button class="btn btn-outline-light w-100">Learn more</button>
+            </div>
+            <div class="col-1"></div>
+            <div class="col col-md-4 px-0">
+              <button
+                class="btn btn-primary d-flex justify-content-center align-items-center w-100"
+              >
+                Our Projects
+                <i class="fa-solid fa-arrow-right ms-2 d-none d-lg-block"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="assets/img/background.jpg"
+        class="position-absolute z-n1 hero-img top-0 end-0"
+        alt="background"
+      />
+      <!-- SERVICES -->
+      <div class="row services">
+        <div class="col-12">
+          <h1 class="fw-bold fs-3 text-center">Our Services</h1>
+          <p class="fw-normal text-center mb-5">
+            We feel very strong about our skills when it comes to planning,
+            designing <br />
+            and coding applications. Here is what we love to do!
+          </p>
+        </div>
+        <div class="row justify-content-center p-0 mx-auto m-md-0">
+          <div
+            class="col-md-4 d-flex justify-content-center align-items-center"
+          >
+            <div
+              class="card px-2 py-4 rounded-1 h-full"
+              style="width: 22rem; height: 100%"
+            >
+              <div class="card-body d-flex flex-column justify-content-between">
+                <span class="fa-stack fa-2x fs-3 mx-auto w-100">
+                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                  <i
+                    class="fa-regular fa-file-lines fa-inverse fa-stack-1x"
+                  ></i>
+                </span>
+
+                <h5 class="card-title fw-semibold fs-6 text-center my-4 w-100">
+                  Bussiness & Product Concept
+                </h5>
+                <p class="card-text text-center">
+                  Analyse bussiness and product concepts at Start-up Workshops
+                  or Ongoing Projects' Audits and prepare a viable and sensible
+                  product roadmap for archieving a perfect market fit.
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-secondary rounded-1 px-4 mx-auto mt-3"
+                  >Lean more</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="col col-md-4 d-flex justify-content-center align-items-center mt-4 mt-md-0"
+          >
+            <div
+              class="card px-2 py-4 rounded-1 h-full"
+              style="width: 22rem; height: 100%"
+            >
+              <div class="card-body d-flex flex-column justify-content-between">
+                <span class="fa-stack fa-2x fs-3 mx-auto w-100">
+                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                  <i class="fa-solid fa-laptop-code fa-inverse fa-stack-1x"></i>
+                </span>
+
+                <h5 class="card-title fw-semibold fs-6 text-center my-4 w-100">
+                  Web & Mobile Development
+                </h5>
+                <p class="card-text text-center">
+                  Plan, develop and test high-quality web- applications using
+                  AngularJS, NodeJS, Javascript, Typescript, HTML5 and SASS/
+                  CSS3 frameworks and native mobile languages.
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-secondary rounded-1 px-4 mx-auto mt-3"
+                  >Lean more</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-4 d-flex justify-content-center align-items-center mt-4 mt-md-0"
+          >
+            <div
+              class="card px-2 py-4 rounded-1 min-h-full"
+              style="width: 22rem; height: 100%"
+            >
+              <div class="card-body d-flex flex-column justify-content-between">
+                <span class="fa-stack fa-2x fs-3 mx-auto w-100">
+                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                  <i class="fa-solid fa-pen-ruler fa-inverse fa-stack-1x"></i>
+                </span>
+
+                <h5 class="card-title fw-semibold fs-6 text-center my-4 w-100">
+                  UX & UI Design
+                </h5>
+                <p class="card-text text-center">
+                  Sketch information architecture and simple mock-ups, convert
+                  them into clickeable prototypes and finish with usable
+                  interface designs to delive a good and reliable user
+                  experience.
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-secondary rounded-1 px-4 mx-auto mt-3"
+                  >Lean more</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- SERVICES -->
+    </div>
+    <div class="container-fluid technology">
+      <!-- TECHNOLOGY -->
+
+      <div class="container">
+        <div class="row technology">
+          <div class="col-md-8 col-12 mx-auto">
+            <h1 class="fw-semibold fs-4 mb-4">
+              We use cutting edge technology
+            </h1>
+            <p class="fw-normal">
+              Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean<br />
+              lacinia bibendum nulla sed consectetur. Cum sociis natoque<br />
+              penatibus et magnis dis parturient montes, nascetur ridiculus<br />
+              mus. Nulla vitae elit libero, a pharetra augue. Vestibulum id<br />
+              ligula porta felis euismod semper. Vivamus sagittis lacus vel<br />
+              augue laoreet rutrum faucibus dolor auctor.<br />
+            </p>
+          </div>
+          <div class="col-md-4 col-12 row d-flex justify-content-center">
+            <div
+              class="row fs-1 d-flex align-items-start justify-content-center my-2"
+            >
+              <div
+                class="col-2 d-flex align-items-center justify-content-center me-4"
+              >
+                <i class="fa-brands fa-html5"></i>
+              </div>
+              <div
+                class="col-2 d-flex align-items-center justify-content-center"
+              >
+                <i class="fa-brands fa-css3-alt mx-auto"></i>
+              </div>
+            </div>
+            <div class="row fs-1 align-items-start justify-content-center my-2">
+              <div
+                class="col-2 d-flex align-items-center justify-content-center me-4"
+              >
+                <i class="fa-brands fa-sass"></i>
+              </div>
+              <div
+                class="col-2 d-flex align-items-center justify-content-center"
+              >
+                <i class="fa-brands fa-node-js"></i>
+              </div>
+            </div>
+            <div class="row fs-1 align-items-start justify-content-center my-2">
+              <div
+                class="col-2 d-flex align-items-center justify-content-center me-4"
+              >
+                <i class="fa-brands fa-angular"></i>
+              </div>
+              <div
+                class="col-2 d-flex align-items-center justify-content-center"
+              >
+                <i class="fa-brands fa-python"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PARTNERS -->
+    <div class="container-fluid partners pt-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 pt-4">
+            <h6 class="text-center text-secondary mt-5">
+              CLIENTS WE WORKED WITH
+            </h6>
+          </div>
+        </div>
+
+        <div class="row mb-5">
+          <div class="col d-flex align-items-center justify-content-center">
+            <img class="tnw" src="assets/img/tnw.jfif" alt="tnw" />
+          </div>
+          <div class="col d-flex align-items-center justify-content-center">
+            <img src="assets/img/google.jpeg" alt="Google" />
+          </div>
+          <div class="col d-flex align-items-center justify-content-center">
+            <img src="assets/img/nike.jfif" alt="Nike" />
+          </div>
+          <div class="col d-flex align-items-center justify-content-center">
+            <img src="assets/img/airbnb.png" alt="Airbnb" />
+          </div>
+          <div class="col d-flex align-items-center justify-content-center">
+            <img src="assets/img/itnews.gif" alt="IT news africa" />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-5 ms-auto">
+          <div class="card bg-primary">
+            <div
+              class="card-body border border-0 text-white d-flex flex-column justify-content-between align-items-start px-5 py-5"
+            >
+              <h5 class="card-title fw-semibold fs-2">Get in touch with us</h5>
+              <p class="card-text fw-normal lh-lg">
+                Maecenas sed diam eget risus varius <br />
+                blandit sit amet non magna.
+              </p>
+              <a href="#" class="btn btn-outline-light">Hire us</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-5 me-auto mt-md-0 mt-4">
+          <div class="card bg-primary border border-0">
+            <div class="card-body text-white overflow-hidden row px-5 py-5">
+              <div
+                class="col d-flex flex-column align-items-start justify-content-between"
+              >
+                <h5 class="card-title fs-2 fw-semibold">Our Projects</h5>
+                <p class="card-text fw-normal lh-lg">
+                  Maecenas sed diam eget risus varius blandit sit amet non
+                  magna.
+                </p>
+                <a href="#" class="btn btn-outline-light">See Projects</a>
+              </div>
+              <div class="col d-none d-lg-block">
+                <img
+                  class=""
+                  style="width: 100%; opacity: 1; filter: grayscale(0)"
+                  src="assets/img/telefono.png"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PARTNERS -->
+
+    <!-- FOOTER -->
+
+    <div class="footer">
+      <footer class="container row py-5 mx-auto px-0">
+        <div class="col-12 ms-4 ms-md-0 col-md-6 mb-3 p-0">
+          <h2 class="fs-6 fw-semibold mb-3">compleet labs</h2>
+          <p class="fw-light">
+            Fusce dapibus, tellus ac cursus commodo, tortor <br />
+            mauris condimentum nibh, ut fementum massa <br />
+            justo sit amet risus. Donec ullamcorper nulla.
+          </p>
+
+          <div class="w-100 w-md-25 text-md-start text-center">
+            <a href="#" class="text-body-secondary"
+              ><i class="fa-brands fa-twitter text-white"></i
+            ></a>
+            <a href="#" class="text-body-secondary ms-2"
+              ><i class="fa-solid fa-globe text-white"></i
+            ></a>
+            <a href="#" class="text-body-secondary ms-2"
+              ><i class="fa-brands fa-square-facebook text-white"></i
+            ></a>
+            <a href="#" class="text-body-secondary ms-2">
+              <i class="fa-brands fa-instagram text-white"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-2 mb-3 text-center text-md-start">
+          <h5 class="fs-6 fw-semibold mb-4">SITEMAP</h5>
+          <ul class="nav flex-column fw-light">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary"
+                >Technology</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Services</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-6 text-center text-md-start col-md-2 mb-3">
+          <h5 class="fs-6 fw-semibold mb-4">Case studies</h5>
+          <ul class="nav flex-column fw-light">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary"
+                >Swiss Airlines</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Google</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Apple</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Nike</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-6 text-center text-md-start col-md-2 mb-3">
+          <h5 class="fs-6 fw-semibold mb-4">Contact</h5>
+          <ul class="nav flex-column fw-light">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Jobs</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Hire us</a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <p class="text-center">
+            Francisco Sepulveda - fsepulvedadev@gmail.com
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="btn-scroll-up" class="rounded-circle bg-primary d-none">
+      <i class="fa-solid fa-angles-up"></i>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/be1b3aa772.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
